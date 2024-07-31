@@ -1,5 +1,5 @@
 import React from 'react';
-import './TicketCard.css';
+import './TicketCard.scss';
 
 const TicketCard = ({ title, description, venue, additionalDetails, availability, price }) => {
   return (

@@ -1,12 +1,12 @@
 import React from 'react';
 import TicketCard from './TicketCard';
-import './TicketCard.css';
+import './TicketCard.scss';
 
 const TicketList = () => {
   const tickets = [
     {
       title: 'Ticket With Coupon',
-      description: 'This is a ticket description. This is a paid ticket. This ticket is uncategorised. This ticket also has a coupon. Buy minimum - 1 and maximum - 1000000 and avail 10% off.',
+      description: 'This is a ticket description. This is a paid ticket. ',
       venue: 'KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India',
       additionalDetails: 'This is additional venue details.',
       availability: '31st Aug 2034, 06:00 PM IST',
@@ -15,7 +15,7 @@ const TicketList = () => {
     {
       title: 'Early Bird Ticket',
       description: 'Grab this early bird ticket at a discounted price. Limited availability!',
-      venue: 'KonfHub Technologies, Bengaluru, India',
+      venue: 'KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India',
       additionalDetails: 'Limited to the first 100 registrants.',
       availability: '15th Aug 2034, 05:00 PM IST',
       price: '500',
@@ -23,8 +23,8 @@ const TicketList = () => {
     {
       title: 'VIP Access',
       description: 'Get exclusive VIP access to all areas. Includes special perks and gifts.',
-      venue: 'C V Raman Nagar, Bengaluru, India',
-      additionalDetails: 'Includes access to the VIP lounge and special seating.',
+      venue: 'KonfHub Technologies, Nagavarapalya, C V Raman Nagar, Bengaluru, Karnataka, India',
+      additionalDetails: 'Includes access to the VIP lounge.',
       availability: '31st Aug 2034, 06:00 PM IST',
       price: '5,000',
     },
