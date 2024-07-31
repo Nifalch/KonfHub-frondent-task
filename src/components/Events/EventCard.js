@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './EventCard.scss';
 import he from 'he';
 import Countdown from './Countdown'
+import TicketList from './TicketList';
 
 const EventCard = ({ event }) => {
     const {
@@ -70,6 +71,7 @@ const EventCard = ({ event }) => {
                                 <section id="section2" className="ticket-section" >
                                     <br></br><br></br>
                                 <h4 className='title text-uppercase mb-4 font-bold'>Tickets</h4>
+                                <TicketList />
 
 
 
