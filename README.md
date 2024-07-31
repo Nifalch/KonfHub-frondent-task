@@ -20,7 +20,7 @@ Follow these steps to download and run the project:
 
     
     npm start
-    ```
+   
 
 
 
