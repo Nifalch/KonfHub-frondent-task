@@ -20,17 +20,22 @@ Follow these steps to download and run the project:
 
     
     npm start
-    ```
+   
 
 
 
 ## Usage
 
 - Ensure you have `node` and `npm` installed.
-- Clone the repository and follow the installation steps.
 
 
+<<<<<<< HEAD
 # KonfHub-frondent-task
 # KonfHub-frondent-task
 # KonfHub-frondent-task
+# KonfHub-frondent-task
+=======
+
+
+>>>>>>> 31b5ff300d32f2bb32f272e749efb95df5d6d8ea
 # KonfHub-frondent-task
