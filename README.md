@@ -29,13 +29,4 @@ Follow these steps to download and run the project:
 - Ensure you have `node` and `npm` installed.
 
 
-<<<<<<< HEAD
-# KonfHub-frondent-task
-# KonfHub-frondent-task
-# KonfHub-frondent-task
-# KonfHub-frondent-task
-=======
 
-
->>>>>>> 31b5ff300d32f2bb32f272e749efb95df5d6d8ea
-# KonfHub-frondent-task
