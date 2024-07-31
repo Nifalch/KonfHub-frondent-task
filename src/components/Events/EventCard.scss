@@ -1,0 +1,114 @@
+@import '../../main.scss';
+
+.container-custom{
+    max-width: 1560px;
+    margin: auto;
+}
+
+.banner {
+    .image-wrapper{
+        box-shadow: $box-shadow-1;
+    }
+
+    .event-wrapper{
+        top: 0;
+
+        .buy-btn{
+            a{
+                background-color: $black;
+                padding: 10px;
+                display: block;
+                width: 100%;
+                color: $white;
+                box-shadow: $box-shadow-3;
+
+                &:hover{
+                    opacity: .8;
+                    text-decoration: none;
+                }
+            }
+        }
+        .site-btn{
+            a{
+                border: 1px solid $black;
+                padding: 10px;
+                display: block;
+                width: 100%;
+                color: $black;
+                box-shadow: $box-shadow-3;
+                text-decoration: none;
+            }
+        }
+
+        .host-details{
+
+            .image-wrapper{
+                width: 42px;
+                overflow: hidden;
+            }
+
+            .host-contact-wrapper{
+                .social-list{
+                    .list-item{
+                        list-style: none;
+
+                        a{
+                            text-decoration: none;
+                            background-color: $black;
+                            padding: 2px 7px 6px;
+                            border-radius: 100px;
+                            color: $white;
+
+                            i{
+                                font-size: 15px;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .content-navbar{
+        border-bottom: 1px solid#d6d6d6;
+
+        ul{
+            li{
+                .nav-link{
+                    color: $black;
+                    font-weight: $font-semi-bold;
+                    font-size: 14px;
+
+                    &.active{
+                        background-color: transparent;
+                        border-bottom: 2px solid $black;
+                    }
+                }
+                &:hover{
+                    background: #c3c3c375!important;
+                }
+                
+            }
+        }
+    }
+
+    .event-description{
+        .custom-table{
+            border: 1px solid $black;
+            text-align: center;
+            width: 100%;
+            
+            th, td{
+                border: 1px solid $black;
+                text-align: center;
+                padding: 10px 0;
+
+                p{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,16 @@
+.navbar-brand img{
+    height: 50px;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 16px;
+  }
+  
+.navbar .navbar-profile{
+cursor: pointer;
+}
+
+.navbar .navbar-profile i{
+    font-size: 20px;
+}
