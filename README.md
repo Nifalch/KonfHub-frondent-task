@@ -27,7 +27,7 @@ Follow these steps to download and run the project:
 ## Usage
 
 - Ensure you have `node` and `npm` installed.
-- Clone the repository and follow the installation steps.
 
 
-# KonfHub-frondent-task
+
+
