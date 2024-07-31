@@ -17,7 +17,7 @@ const TicketCard = ({ title, description, venue, additionalDetails, availability
           <strong>Available Till:</strong> {availability}
         </p>
         <p className="price">
-          <strong>Price:</strong> ₹{price}
+          <strong></strong> ₹{price}
         </p>
       </div>
       <div className="ticket-footer">
